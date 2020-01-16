@@ -1,0 +1,42 @@
+@media (max-width:991px) {
+	header { padding: 20px 0 }
+	header .container { max-width: 100% }
+	header a.logo { font-size: 22px; line-height: 26px }
+	header ul li { margin: 0 3px }
+	header ul li:last-child { margin-right: 0 }
+	header ul li a { padding: 8px 12px; font-size: 13px; line-height: 13px }
+	main { padding: 69px 0 0 }
+	.trainer-info-listing { padding: 40px 0 }
+	.trainer-info-listing .row>div { margin-bottom: 30px }
+	.trainer-info-listing h2 { margin-bottom: 50px }
+	.trainers-wrapper > .trainer-col { width: 50%; margin-bottom: 30px; }
+	.trainer-card { min-height: 350px; }
+}
+@media (max-width:767px) {
+	.slider ul, .slider li { height: 400px; }
+	.slide-content { width: 100%; top: 20%; }
+	.header-inner nav { width: 100%; }
+	.hamburger-menu { display: block }
+	header ul li { display: block; text-align: center; margin: 15px 0 }
+	header ul li a { font-size: 20px; line-height: 24px; padding: 8px 20px }
+	header nav { position: fixed; right: -100%; width: 100%; background: #202020; top: 65px; transition: all 0.3s; -webkit-transition: all 0.3s; -ms-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; min-height: calc(100vh - 70px); bottom: 0; justify-content: center; overflow-y: auto; padding: 40px 0; }
+	header nav ul { display: flex; flex-direction: column; align-items: center }
+	.open-menu header nav { right: 0; }
+	body.open-menu { overflow: hidden }
+	main { padding-top: 66px }
+	.slide-content h2 { font-size: 23px; line-height: 29px; padding: 12px 16px; }
+	.slide-content p { font-size: 14px; line-height: 18px; padding: 10px 16px; }
+	.slide-content span { padding: 6px; }
+	.next-slide { top: auto; bottom: 20px; right: calc(50% - 60px); transform: none }
+	.prev-slide { top: auto; bottom: 20px; left: calc(50% - 60px); transform: none }
+	.slider-section li { min-height: 300px; height: auto !important }
+	.trainer-info-listing h2 { margin-bottom: 40px; font-size: 20px; line-height: 24px }
+	.trainer-card .trainer-basic-info { padding: 15px 17px }
+	.trainer-card .trainer-card-back { padding: 25px 20px }
+}
+@media(max-width:480px) {
+	.trainers-wrapper > .trainer-col { width: 100%; }
+}
+@media (max-width:374px) {
+	header ul li { margin: 10px 0 }
+}
